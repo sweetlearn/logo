@@ -15,7 +15,6 @@ COLORS = {\
 "black-background":"\u001b[40m",
 "cyan-background":"\u001b[46;1m",
 }
-
 #You can add more colors and backgrounds to the dictionary if you like.
 
 
@@ -26,10 +25,11 @@ def colorText(text):
 
 
 #Example printing out some text
-hello = "[[red]]hello [[blue]]world[[white]]"
-print(colorText(hello))
+#hello = "[[red]]hello [[blue]]world[[white]]"
+#print(colorText(hello))
 
+print("")
 #Example printing out an ASCII file
-f  = open("pythonlogo2.txt","r")
+f = open("C:/Users/info/Desktop/args/gaza.txt", "r")
 ascii = "".join(f.readlines())
 print(colorText(ascii)) 
