@@ -30,6 +30,6 @@ def colorText(text):
 
 print("")
 #Example printing out an ASCII file
-f = open("C:/Users/info/Desktop/args/gaza.txt", "r")
+f = open("/gaza.txt", "r")
 ascii = "".join(f.readlines())
 print(colorText(ascii)) 
